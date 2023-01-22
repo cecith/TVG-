@@ -1,0 +1,140 @@
+li {
+    display: inline;
+  }
+  /* Cambia el color al pasar el mouse */
+li a:hover {
+    background-color: rgb(243, 219, 219);
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B2B2BE;
+  }
+.titulo {
+    font-size: 24px;
+    color: black;
+    float: none;
+    margin: 0 auto;
+  }
+    header {
+    background-color: #F17732;
+    padding: 20px;
+    text-align: center;
+  }
+   nav {
+    background-color: #B2B2BE;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+   }
+   nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav a {
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .gallery img {
+    width: 20%; /* porcentaje del ancho de la imagen */
+    padding: 5px; /* espaciado entre las imágenes */
+    box-sizing: border-box; /* para que el padding no afecte al ancho de la imagen */
+ } 
+/** Quiero crear un texto tipo artículo de 2 secciones en una columna, una que sea el artículo principal y otra que sea el aside */
+article {
+    width: 70%;
+    float: left;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 50px;
+    background-color: #B2B2BE;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  section {
+    border-top: 2px solid black;
+    text-align: justify;
+    inset-inline-start: 1px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  aside {
+    width: 17%;
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #B2B2BE;
+    margin-right: 20px;
+    margin-top: 150px;
+  }
+  
+h1 {
+    font-weight: bold;
+    font-size: large;
+    color:#292927;
+    margin: 1px;
+    border: 5px;
+    border-width: 5px;
+    border-color: #E15C52(255, 197, 127);
+    padding: 2px
+}
+h2 {
+    font-weight: bold;
+    font-size: medium;
+    color:#292927;
+}
+h3 {
+    font-weight:lighter;
+    font-size: medium;
+    color:#292927;
+    font-style: italic;
+}
+h4{
+    font-weight:bold;
+    font-size: smaller;
+    color:#292927;
+    font-style: italic;
+    text-align: right;
+}
+p   {
+    color: grey;
+    width: fit-content;
+    font-size: small;
+    font-weight: lighter;
+}
+  body {
+    background-color: #F8F8F8;
+  }
+  .clear {
+    clear: both;
+ } 
+footer {
+    background-color:#F17732;
+    color: black;
+    text-align: left;
+    font-size: small;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 40px;
+  }
+  .pie {
+    font-size: 17px;
+    color: black;
+    margin: 0 auto;
+  }
+  button #hola {
+    width: 150px;
+    height: 50px;
+    border: 2px #F17732;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+  }
