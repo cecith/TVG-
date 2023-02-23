@@ -138,3 +138,79 @@ footer {
     font-size: 20px;
     float: left;
   }
+/*quiero hacer la adaptación responsive para todos los tañmaños*/
+/* Estilo para pantallas grandes */
+@media screen and (min-width: 1024px) {
+  article {
+    width: 70%;
+    float: left;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 50px;
+    background-color: #B2B2BE;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  aside {
+    width: 17%;
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #B2B2BE;
+    margin-right: 20px;
+    margin-top: 150px;
+  }
+}
+
+/* Pantallas medianas */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  article {
+    width: 100%;
+    float: none;
+    padding: 20px;
+    background-color: #B2B2BE;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  aside {
+    width: 100%;
+    float: none;
+    padding: 20px;
+    background-color: #B2B2BE;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Pantallas chicas */
+@media screen and (max-width: 767px) {
+  article {
+    width: 100%;
+    float: none;
+    padding: 20px;
+    background-color: #B2B2BE;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  aside {
+    width: 100%;
+    float: none;
+    padding: 20px;
+    background-color: #B2B2BE;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  nav ul {
+    display: block;
+    text-align: center;
+  }
+  nav li {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .titulo {
+    font-size: 20px;
+  }
+}
