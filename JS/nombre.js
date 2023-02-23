@@ -9,3 +9,11 @@ function mostrarTexto() {
     let texto = document.getElementById("concatenacion");
     texto.innerHTML = concatenacion;
 }
+
+function displayTime() {
+  let date = new Date();
+  let time = date.toLocaleTimeString();
+  document.getElementById("HORA").innerHTML = time;
+}
+setInterval(displayTime, 1000);
+
