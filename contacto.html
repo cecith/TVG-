@@ -18,37 +18,36 @@
             </ul>
         </nav>
     </header>
-<section>
+    <section class="contenido">
         <h1>Averigua cómo comprar una obra</h1>
         <button id="hola" onclick="mostrarTexto()">Hola</button>
         <p id="concatenacion"></p>
     </section>
-   <script src="JS/nombre.js"></script>
-<section>
-    <h2>Formulario de contacto</h2>
-    <p>
-        Para que yo pueda evaluar el trabajo que solicita, te pido que completes el siguiente formulario.  
-    </p>
-    <form action="/action.php" method="post">
-        Nombre: <input name="Nombre completo" type="text" class="form-input" />  <br /> 
-        Celular contacto: <input max="99" min="11" name="celular" type="number" />  <br />
-        <select name="país">
-        <option selected="selected" value="argentina">Argentina</option>
-        <option value="otros paises">Otros paises</option>
-        </select><br /> 
-        <textarea cols="20" name="comments" rows="5">Mensaje</textarea><br />
-        <label><input name="terms" type="checkbox" value="tandc" />Accept terms</label> <br />
-        <input type="submit" value="Submit" />
+    <script src="JS/nombre.js"></script>
+    <section>
+        <h2>Formulario de contacto</h2>
+        <p>
+            Para que yo pueda evaluar el trabajo que solicita, te pido que completes el siguiente formulario.  
+        </p>
+        <form action="/action.php" method="post">
+            Nombre: <input name="nombre" type="text" class="form-input" />  <br /> 
+            Celular contacto: <input max="9999999999" min="11" name="celular" type="number" />  <br />
+            <select name="país">
+                <option selected="selected" value="argentina">Argentina</option>
+                <option value="otros paises">Otros paises</option>
+            </select><br /> 
+            <textarea cols="20" name="comments" rows="5">Mensaje</textarea><br />
+            <label><input name="terms" type="checkbox" value="accept" />Accept terms</label> <br />
+            <input type="submit" value="Submit" />
         </form>
-        
-</section>
-<footer>
-    <div>
-        <h4>Copyright Todos los derechos reservados</h4>
-    </div>
-    <p class="pie">Contactate conmigo y seguime en las <b>redes</b></p><br>
-    <p class="pie">
-        <a href="mailto:erika.may@example.com?Subject=Hola" target="_top">Escribime por mail</a>
+    </section>
+    <footer>
+        <div>
+            <h4>Derechos de autor: Todos los derechos reservados</h4>
+        </div>
+        <p class="pie">Contactate conmigo y seguime en las <b>redes</b></p>
+        <p class="pie">
+            <a href="mailto:erika.may@example.com?Subject=Hola" target="_top">Escribime
     </p><br>
     <p class="pie">
         <a href="https://twitter.com/TVG_gang">Twitter</a>
