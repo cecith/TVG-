@@ -64,7 +64,16 @@
     </aside>
     <div class="clear"></div>
 </main>
-<!-- Todo lo que se incluye dentro del CV es una mezcla de material personal y material obtenido de la página https://randomuser.me/ -->  
+<!-- Todo lo que se incluye dentro del CV es una mezcla de material personal y material obtenido de la página https://randomuser.me/ -->
+<div id="clock"></div>
+  <script>
+    function displayTime() {
+      let date = new Date();
+      let time = date.toLocaleTimeString();
+      document.getElementById("HORA").innerHTML = time;
+    }
+    setInterval(displayTime, 1000);
+  </script>
 <footer>
     <div>
         <h4>Copyright Todos los derechos reservados</h4>
