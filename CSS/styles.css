@@ -202,6 +202,9 @@ footer {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+    /* estilos para pantallas más chicas que no sean responsive a lo anterior */
+    @media only screen and (max-width: 600px) {
+}   
   nav ul {
     display: block;
     text-align: center;
